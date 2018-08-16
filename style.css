@@ -1,0 +1,1416 @@
+/*--------------------------------------------
+
+    Template Name: Coding Avatar html Template
+    Author: Md Azijul Islam (bangladesh)
+    Version: 1.0
+	Website: www.bdjobads.com 
+    Description: This template made for any kind of site.
+
+--------------------------------------------
+    
+    CSS INDEX
+    ===================
+	Google font
+	-------------
+	1. font-family: 'Droid Serif', serif; font-weight:400,700.
+	1. font-family: 'Roboto Slab', serif; font-weight:100,300,400,700.
+	1. font-family: "Raleway", sans-serif;
+    
+    Base or Reset or common css are in reset.css file
+
+    1.  start Header CSS
+    2.  start Creative CSS
+    3.  start Skill CSS
+    4.  start Services with Purchase CSS
+    5.  start Team CSS
+    6.  start Portfolio Font Page CSS
+    7.  Start Clients CSS
+    8.  Start Blog CSS
+    9.  Start Footer CSS   
+	10. Start Portfolio Link Page CSS
+-------------------------------*/
+
+/* ----------------- Start Header CSS------------------ */
+.header_area,.skill_area,.Purchase_area,.client_area,.footer_area {
+	background-image:url(img/header_bg.jpg);
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat
+}
+
+.header_area .header_logo_top {
+	text-align:center;
+	z-index:99999
+}
+
+.header_area .header_logo_top img {
+	width:100px;
+	border-radius:5px
+}
+
+.header_area .header_logo_title {
+	font-weight:700;
+	font-size:70px;
+	font-family:'Roboto Slab',serif;
+	font-weight:700;
+	color:#fff
+}
+
+.header_area .slider_list .text_slider h1 {
+	font-weight:300px;
+	font-size:50px;
+	padding-bottom:5px;
+	font-family:"Raleway",sans-serif;
+	margin-top:5px;
+	color:#D2C3C3
+}
+
+.header_area .slider_list .text_slider p {
+	margin-bottom:30px;
+	text-decoration:none;
+	font-weight:200;
+	line-height:1.4;
+	font-family:"Raleway",sans-serif;
+	color:#89c144;
+	font-size:20px;
+	padding:0 60px
+}
+
+.header_area .slider_list .text_slider .work-button {
+	background:#3B5F0F;
+	padding:15px 12.9px;
+	border:0 none;
+	width:200px;
+	border-radius:5px;
+	color:#fff;
+	margin-right:15px;
+	margin-bottom:0;
+	font-family:'Roboto Slab',serif;
+	font-weight:400;
+	box-shadow:0 -3px 5px #CBABAB inset
+}
+
+.header_area .slider_list .text_slider .work-button:hover {
+	background:#BE4C47;
+	color:#000;
+	transition:all 1s ease-in-out;
+	-ms-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-webkit-transition:all 1s ease-in-out
+}
+
+.header_area .slide_icon a {
+	text-decoration:none
+}
+
+.header_area .slide_icon img {
+	margin-top:30px
+}
+
+/* -----------------    End Header CSS    ------------------ */
+/* ----------------- Start Navigation CSS ------------------ */
+.nav_area {
+	z-index:99999
+}
+
+.navbar-default {
+	top:0;
+	left:0;
+	width:100%;
+	padding:0;
+	z-index:4;
+	background-color:#fff;
+	opacity:1;
+	-webkit-box-shadow:0 1px 5px rgba(0,0,0,0.15);
+	-ms-shadow:0 1px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow:0 1px 5px rgba(0,0,0,0.15);
+	box-shadow:0 1px 5px rgba(0,0,0,0.15)
+}
+
+.navbar-brand {
+	padding:4px 0 15px 15px;
+	font-size:30px;
+	line-height:20px
+}
+
+.navbar-right {
+	font-family:'Roboto Slab',serif;
+	font-size:16px;
+	text-transform:uppercase;
+	height:100%
+}
+
+.navbar-default {
+	border-color:#e7e7e7;
+	padding:12px 0
+}
+
+.navbar-default ul#navid li a:hover,.navbar-default ul#navid li.current a {
+	color:#0AC30A;
+	border-radius:10px 0 10px 0
+}
+
+/* ----------------- End Navigation CSS------------------ */
+/* ----------------- Start Creative CSS------------------ */
+
+.creative_area .creative_heading_text h1 {
+	font-size:70px;
+	color:#ffd400;
+	font-family:'Droid Serif',serif
+}
+
+.creative_area .creative_heading_text h2 {
+	font-size:35px;
+	font-family:'Droid Serif',serif;
+	font-weight:400
+}
+
+.creative_area .creative_heading_text p {
+	padding:5px 250px;
+	margin-bottom:40px;
+	font-family:'Droid Serif',serif;
+	font-weight:100
+}
+
+.creative_area .creative_icon {
+	clear:both
+}
+
+.creative_area .creative_icon .single_crietive {
+	text-align:center
+}
+
+.creative_area .creative_icon .single_crietive .about_img_icon {
+	text-align:center;
+	padding-bottom:25px
+}
+
+.creative_area .creative_icon .single_crietive .about_img_icon a i {
+	border:1px solid #549a3e;
+	color:#000;
+	padding:26px;
+	font-size:75px;
+	background-color:rgba(58,160,27,0.5);
+	border-radius:5px;
+	transition:all 1s ease-in-out;
+	-ms-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-webkit-transition:all 1s ease-in-out
+}
+
+.creative_area .creative_icon .single_crietive .about_img_icon a i:hover {
+	background:rgba(153,167,23,0.87);
+	color:green;
+	transition:all 1s ease-in-out;
+	-ms-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-webkit-transition:all 1s ease-in-out
+}
+
+.creative_area .creative_icon .single_crietive .about_info h4 {
+	font-size:28px;
+	padding:10px 0;
+	font-family:'Droid Serif',serif
+}
+
+.creative_area .creative_icon .single_crietive .about_info p {
+	font-family:'Droid Serif',serif;
+	font-weight:100;
+	font-size:15px;
+	line-height:17px
+}
+
+/* ----------------- End Creative CSS------------------ */
+/* ----------------- Start Skill CSS------------------ */
+.skill_area {
+	background-image:url(img/skill_bg.jpg);
+	background-attachment:fixed
+}
+
+.skill_area .skill_text h2 {
+	color:#fff;
+	font-weight:700;
+	font-family:'Droid Serif',serif
+}
+
+.skill_area .skill_text p {
+	color:#87f118;
+	font-weight:700
+}
+
+.skill_area .skill .single_skill h4 {
+	color:#fff;
+	margin-bottom:15px;
+	font-size:15px
+}
+
+.skill_area .skill .single_skill .progress {
+	height:30px
+}
+
+.skill_area .skill .single_skill .progress_style {
+	line-height:28px;
+	text-align:right;
+	margin-right:5px
+}
+
+.skill_area .skill .single_skill .progress_style span {
+	margin-right:5px
+}
+
+/* ----------------- End Skill CSS     ------------------ */
+/* ----------------- Start Service CSS ------------------ */
+.service_area {
+	padding:90px 0;
+	background-color:#FFF
+}
+
+.service_area .heading_icon_style {
+	background:rgba(176,130,0,0.78);
+	padding:5px;
+	border-radius:50%;
+	color:#411A1A
+}
+
+.service_area .single_service_item_left {
+	text-align:center;
+	clear:both;
+	width:100%
+}
+
+.service_area .single_service_item_left .left_service_icon {
+	float:right;
+	width:30%;
+	text-align:center
+}
+
+.service_area .single_service_item_left .left_service_content {
+	text-align:right;
+	float:left;
+	width:70%
+}
+
+.left_service_icon .icon_style,.right_service_icon .icon_style {
+	border-radius:50%;
+	font-size:24px;
+	margin-top:20px;
+	padding:30px;
+	text-align:center;
+	background:#3F3B3B none repeat scroll 0 0;
+	border:1px solid #11308C;
+	transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out
+}
+
+.left_service_icon .icon_style:hover,.right_service_icon .icon_style:hover {
+	border:1px solid green;
+	transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out
+}
+
+.left_service_content h4,.right_service_content h4 {
+	font-size:19px;
+	margin-bottom:10px;
+	margin-top:15px;
+	font-family:'Droid Serif',serif
+}
+
+.left_service_content p,.right_service_content p {
+	margin-bottom:0;
+	font-size:14px
+}
+
+.left_service_content a,.right_service_content a {
+	color:#72CC3E;
+	font-family:'Droid Serif',serif
+}
+
+.service_area .service_item_image img {
+	max-height:370px;
+	height:365px
+}
+
+.service_area .single_service_item_right {
+	text-align:center;
+	clear:both;
+	width:100%
+}
+
+.service_area .single_service_item_right .right_service_icon {
+	float:left;
+	width:25%;
+	text-align:center
+}
+
+.service_area .single_service_item_right .right_service_content {
+	text-align:left;
+	float:right;
+	width:70%
+}
+
+/* ----------------- End Service CSS     ------------------ */
+/* ----------------- Start Purchase CSS ------------------ */
+.Purchase_area {
+	background-image:url(img/puncher_bg.jpg);
+	background-attachment:fixed
+}
+
+.Purchase_area h1,.Purchase_area h2 {
+	font-family:"Roboto Slab",serif;
+	color:#3E3A3A;
+	font-size:30px;
+	font-weight:700
+}
+
+.Purchase_area h2 {
+	font-size:15px
+}
+
+.btn_style {
+	background:#E2625B none repeat scroll 0 0;
+	padding:17px 34px;
+	border:none;
+	box-shadow:0 -4px 0 rgba(0,0,0,0.15) inset
+}
+
+a.btn.btn_style:hover {
+	border:0 solid #ffd400;
+	background:#E2625B none repeat scroll 0 0;
+	opacity:.8;
+	color:#fff
+}
+
+/* ----------------- End Purchase CSS     ------------------ */
+/* ----------------- Start Team CSS ------------------ */
+.team_area {
+	background:rgba(211,249,184,1)
+}
+
+.team_area .single_team .single_team_img img {
+	min-height:285px;
+	max-height:285px;
+	width:100%
+}
+
+.team_area .single_team .single_team_text {
+	border:1px solid #e3e3e3;
+	padding:12px 25px 25px;
+	padding-bottom:10px;
+	background:#FFF;
+	border-top:0
+}
+
+.team_area .single_team .single_team_text h3 {
+	font-size:18px;
+	font-family:'Roboto Slab',serif
+}
+
+.team_area .single_team .single_team_text a {
+	color:green
+}
+
+.team_area .single_team .single_team_text a:hover {
+	color:#000
+}
+
+.team_area .single_team .single_team_text h3 span {
+	font-size:12px;
+	font-family:'Roboto Slab',serif;
+	color:#9f9f9f;
+	font-weight:400;
+	margin-bottom:4px;
+	display:block;
+	padding-top:4px
+}
+
+.team_area .single_team .single_team_text .single_team_icon ul {
+	padding:0;
+	margin:0;
+	text-align:center
+}
+
+.team_area .single_team .single_team_text .single_team_icon ul li {
+	display:inline;
+	list-style:outside none none;
+	margin:0 4px
+}
+
+.team_area .single_team .single_team_text .single_team_icon ul li a {
+	display:inline-block
+}
+
+.team_area .single_team .single_team_text .single_team_icon i {
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color:#aaa;
+	background:none;
+	border:1px solid #aaa;
+	width:26px;
+	height:26px!important;
+	line-height:1;
+	font-size:12px;
+	border-radius:50%
+}
+
+.team_area .single_team .single_team_text .single_team_icon i:hover {
+	border:1px solid #000;
+	color:green
+}
+
+/* ----------------- End Team CSS  ------------------ */
+/* ----------------- Start Portfolio Font Page CSS ------------------ */
+.portfolio_area {
+}
+
+.portfolio_area h2 {
+	color:#E74D4D
+}
+
+.portfolio_area .heading_icon_style {
+	background:rgba(176,130,0,0.78);
+	padding:5px;
+	border-radius:50%;
+	color:#411A1A
+}
+
+.portfolio_area .our_project ul {
+	margin:0;
+	padding:0;
+	text-align:center
+}
+
+.portfolio_area .our_project ul li {
+	font-family:'Roboto Slab',serif;
+	display:inline-block;
+	font-weight:600;
+	text-transform:uppercase;
+	color:#000;
+	padding:0 14px;
+	border-right:1px solid #CCBDBD;
+	cursor:pointer
+}
+
+.portfolio_area .our_project ul li:last-child {
+	border-right:0 solid #CCBDBD
+}
+
+.portfolio_area .our_project ul li:hover,.our_project ul li.active {
+	color:green
+}
+
+.portfolio_area .all_project .mix {
+	display:none
+}
+
+.portfolio_area .all_project .single_portfolio_item {
+	max-height:270px;
+	min-height:270px;
+	overflow:hidden;
+	position:relative;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-ms-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_image {
+	position:relative;
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-ms-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	transition:all 1s ease-in-out
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_image img {
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info {
+	position:absolute;
+	width:100%;
+	height:auto;
+	left:0;
+	bottom:0;
+	opacity:1
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner {
+	padding:15px 20px;
+	background:#EF4A43
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner h4 {
+	font-size:13.8px;
+	line-height:21px
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner h4 a {
+	color:#000
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner .portfolio_title {
+	float:left
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner .portfolio_star {
+	float:right;
+	border-left:1px solid #e9695c;
+	padding:15px 0 15px 20px;
+	margin:-15px 0
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner .portfolio_star a {
+	color:#000
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner .portfolio_star a:hover {
+	color:#fff
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner .portfolio_link {
+	float:right;
+	padding:15px 20px;
+	margin:-15px 0;
+	border-left:1px solid #e9695c
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner .portfolio_link a {
+	color:#fff
+}
+
+.portfolio_area .all_project .single_portfolio_item .portfolio_info .portfolio_info_inner .portfolio_link a:hover {
+	color:#000
+}
+
+.portfolio_area .all_project .single_portfolio_item:hover .portfolio_image {
+	margin-top:-185px;
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-ms-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+	transition:all 1s ease-in-out
+}
+
+/* ----------------- End Portfolio Font Page CSS ------------------ */
+/* ----------------- Start Portfolio Link Page CSS ------------------ */
+.portfolio_link_h2 {
+	border-bottom:1px solid #ddd;
+	margin-bottom:10px;
+	font-size:23px;
+	text-transform:capitalize
+}
+
+.portfolio_link_p {
+	color:#716262;
+	font-size:16px
+}
+
+.table a {
+	color:#685B5B
+}
+
+.connect_us {
+	clear:both
+}
+
+.connect_us ul#text {
+	margin:0;
+	padding:0;
+	float:left
+}
+
+.connect_us ul#text li {
+	list-style:none;
+	display:inline
+}
+
+.connect_us ul#text li a {
+	display:inline-block;
+	color:#23A815;
+	font-size:20px
+}
+
+.connect_us ul#icon {
+	margin:0;
+	padding:0;
+	float:right
+}
+
+.connect_us ul#icon li {
+	list-style:none;
+	display:inline;
+	margin-right:15px
+}
+
+.connect_us ul#icon li a {
+	display:inline-block;
+	color:#23A815;
+	font-size:20px
+}
+
+.portfolio_more_area {
+	background-image:url(img/client/client_bg.jpg);
+	background-attachment:fixed
+}
+
+.portfolio_more_area h3 {
+	color:#ff0;
+	font-size:25px
+}
+
+.portfolio_more_area p {
+	color:#B6C4D2
+}
+
+.portfolio_more_area .more_portfolio {
+	color:#CCCC79
+}
+
+.portfolio_more_area .port_more_img {
+	margin-right:10px
+}
+
+.portfolio_more_area .port_more_img img {
+	width:100%;
+	height:200px;
+	max-height:200px;
+	border-radius:5px
+}
+
+.portfolio_more_area .port_more_img img:hover {
+	opacity:.7
+}
+
+.portfolio_more_area .owl-theme .owl-controls .owl-page span {
+	display:none
+}
+
+.portfolio_more_area .owl-theme .owl-controls .owl-buttons div {
+	background:rgba(7,113,76,0.92);
+	padding:15px
+}
+
+/* ----------------- End Portfolio Link Page  CSS ------------------ */
+/* ----------------- Start Client CSS  ------------------ */
+.client_area {
+	background-image:url(img/client/client_bg.jpg);
+	background-attachment:fixed
+}
+
+.client_area h2 {
+	color:#ff0
+}
+
+.client_area h3 {
+	color:#ff0;
+	font-size:25px
+}
+
+.client_area p {
+	color:#B6C4D2
+}
+
+.client_area .more_portfolio {
+	color:#CCCC79
+}
+
+.client_area .single_clirnt_img {
+	margin-right:10px
+}
+
+.client_area .single_clirnt_img img {
+	width:100%;
+	height:200px;
+	max-height:200px;
+	border-radius:5px
+}
+
+.client_area .single_clirnt_img img:hover {
+	opacity:.7
+}
+
+.client_area .owl-theme .owl-controls .owl-page span {
+	display:none
+}
+
+.client_area .owl-theme .owl-controls .owl-buttons div {
+	background:rgba(7,113,76,0.92);
+	padding:15px
+}
+
+/* ----------------- End Client CSS ------------------ */
+/* ----------------- Start Blog CSS------------------ */
+.blog_area {
+}
+
+.blog_area h2 {
+	color:#7B4A4A
+}
+
+.blog_area .blog_item .blog_img {
+	position:relative;
+	overflow:hidden
+}
+
+.blog_area .blog_item .blog_img img {
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+	z-index:0;
+	height:200px;
+	width:100%
+}
+
+.blog_area .blog_item .blog_img img:hover {
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+	transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-o-transform:scale(1.5);
+	-ms-transform:scale(1.5)
+}
+
+.blog_area .blog_item .blog_img .bolog_action {
+	position:absolute;
+	right:-100px;
+	top:-100x;
+	background:red;
+	z-index:999;
+	opacity:0
+}
+
+.blog_area .blog_item .blog_img:hover .bolog_action {
+	position:absolute;
+	right:0;
+	top:0;
+	background:red;
+	z-index:999;
+	opacity:1;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+	border-radius:0 0 0 10px
+}
+
+.blog_area .blog_item .blog_img .bolog_action a {
+	font-weight:400;
+	display:block
+}
+
+.blog_area .blog_item .blog_img .bolog_action a i {
+	padding:10px
+}
+
+.blog_area .blog_item .blog_info {
+	position:absolute;
+	width:100%;
+	left:0;
+	bottom:-26px;
+	height:auto
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner {
+	border-top:1px solid #fff;
+	margin:0 25px;
+	position:relative
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner:before {
+	background:#3F3F3F;
+	position:absolute;
+	content:'';
+	width:100%;
+	height:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	z-index:1;
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner:hover:before {
+	background:#3F3F3F;
+	position:absolute;
+	content:'';
+	width:100%;
+	height:100%;
+	bottom:0;
+	left:0;
+	opacity:1;
+	z-index:1;
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner .blog_info_icon {
+	color:#fff;
+	text-transform:capitalize;
+	text-align:center;
+	font-size:11px;
+	padding:5px 0;
+	position:relative;
+	z-index:5
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner .blog_info_icon span {
+	margin:0 5px
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner .blog_info_icon span i {
+	margin-right:5px
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner .blog_title {
+	padding:5px;
+	background:#EF4A43;
+	text-align:center
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner .blog_title h4 {
+	margin-bottom:0;
+	font-size:10px
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner .blog_title h4 a {
+	color:#120E0E;
+	position:relative;
+	z-index:2;
+	font-weight:700;
+	line-height:14px
+}
+
+.blog_area .blog_item .blog_info .blog_info_inner .blog_title h4 a:hover {
+	color:#fff
+}
+
+/* ----------------- End Blog CSS     ------------------ */
+/* ----------------- Start Footer CSS ------------------ */
+.footer_area {
+	background-image:url(img/footer_bg.jpg);
+	background-attachment:fixed
+}
+
+.footer_area .contact_title h1 {
+	color:#ffd400;
+	font-size:65px;
+	font-weight:700;
+	line-height:51px
+}
+
+.footer_area .contact_title p {
+	color:#fff;
+	font-weight:700;
+	margin:28px 225px 0
+}
+
+.footer_area .form-control {
+	background-color:transparent;
+	border-radius:0;
+	border:1px solid #6f6f6f
+}
+
+.footer_contact .contact_title h4 {
+	color:#FFD400
+}
+
+.footer_contact .form-group {
+	font-family:"Open Sans",sans-serif;
+	margin-bottom:40px;
+	text-align:left
+}
+
+.footer_contact .submit_button {
+	text-align:center;
+	margin-bottom:0
+}
+
+.left_input input {
+	color:#fff;
+	height:65px;
+	line-height:65px;
+	padding:7px 20px;
+	text-indent:10px;
+	width:100%
+}
+
+textarea#message {
+	height:172px;
+	padding:20px
+}
+
+.footer_contact .right_input textarea.form-control,.footer_contact .left_input input.form-control {
+	font-weight:700;
+	color:#fff
+}
+
+.footer_contact .right_input ::-webkit-input-placeholder,.footer_contact .left_input ::-webkit-input-placeholder {
+/* WebKit browsers */
+	color:#fff;
+	text-transform:uppercase
+}
+
+.footer_contact .right_input ::-ms-input-placeholder,.footer_contact .left_input ::-ms-input-placeholder {
+/* IE browsers */
+	color:#fff;
+	text-transform:uppercase
+}
+
+.footer_contact .right_input ::-moz-placeholder,.footer_contact .left_input ::-moz-placeholder {
+/* Mozilla Firefox 19+ */
+	color:#fff;
+	opacity:1;
+	text-transform:uppercase
+}
+
+.address_area li,.hotline_area li {
+	color:#77E613;
+	font-family:"Open Sans",sans-serif;
+	font-weight:700;
+	margin:7px 0;
+	text-transform:uppercase
+}
+
+.social_icons ul,.footer_menu ul,.address_area ul,.hotline_area ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center
+}
+
+.social_icons ul li,.footer_menu ul li {
+	display:inline-block
+}
+
+.social_icons ul li a,.footer_menu ul li a {
+	text-decoration:none
+}
+
+.social_icons a {
+	border-radius:50%;
+	display:block;
+	height:35px;
+	line-height:35px;
+	width:35px;
+	background:#838383;
+	margin:0 11px
+}
+
+.social_icons a i {
+	color:#0e2617;
+	-webkit-transition:.6s;
+	transition:.6s
+}
+
+.social_icons a:hover i {
+	color:#FFF
+}
+
+.footer_menu a {
+	font-family:"Open Sans",sans-serif;
+	font-weight:700;
+	padding:5px 15px;
+	display:block;
+	text-transform:uppercase;
+	color:green;
+	font-size:16px
+}
+
+.footer_menu a:hover {
+	color:#FFF
+}
+
+.contact_area {
+	position:relative;
+	overflow:hidden;
+	clear:both
+}
+
+.contact_area:after {
+	background:#fff none repeat scroll 0 0;
+	content:"";
+	height:100%;
+	left:50%;
+	position:absolute;
+	top:35%;
+	width:3px;
+	opacity:.5
+}
+
+.btn {
+	border-radius:0;
+	-webkit-transition:.6s;
+	-o-transition:.6s;
+	-ms-transition:.6s;
+	transition:.6s;
+	font-weight:700;
+	text-transform:uppercase
+}
+
+a.btn:hover {
+	color:green;
+	border:2px solid #ffd400
+}
+
+.btn.btn-warning {
+	background:transparent none repeat scroll 0 0;
+	border:1px solid #6f6f6f;
+	font-size:15px;
+	padding:16px 54px
+}
+
+.btn.btn-warning:hover {
+	color:green
+}
+
+.address_area {
+	text-align:right;
+	margin-right:30px;
+	float:right
+}
+
+.hotline_area {
+	text-align:left;
+	margin-left:30px;
+	float:left
+}
+
+.footer_area .footer_copyright {
+	background-color:#150F0F;
+	opacity:.5
+}
+
+.footer_area .footer_copyright p,.footer_copyright a {
+	color:#fff;
+	text-transform:capitalize;
+	margin:0
+}
+
+.footer_area .footer_copyright a {
+	color:#FBEF06;
+	text-decoration:none
+}
+
+.footer_area .footer_copyright a:hover {
+	color:#FFF
+}
+
+/* ---------- End Footer CSS ------------ */
+
+
+
+/*-------------------------------------------
+
+		Responsive Layout Start
+
+---------------------------------------------*/
+/* Medium Layout: 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.service_area .single_service_item_left .left_service_icon {
+	text-align:center;
+	float:right;
+	width:34%
+}
+
+.service_area .single_service_item_left .left_service_content {
+	float:left;
+	width:66%;
+	text-align:center
+}
+
+.left_service_content h4,.right_service_content h4 {
+	font-size:15px
+}
+
+.left_service_content p,.right_service_content p {
+	font-size:11px
+}
+
+.service_area .single_service_item_left .right_service_icon {
+	text-align:center;
+	float:left;
+	width:34%
+}
+
+.service_area .single_service_item_right .right_service_content {
+	float:right;
+	text-align:center;
+	width:66%
+}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.sitename {
+	font-size:25px;
+	color:#963333
+}
+
+.navbar-default .navbar-nav li a {
+	padding:10px 11px;
+	text-transform:capitalize
+}
+
+.creative_area .creative_heading_text h1 {
+	font-size:50px;
+	padding-bottom:15px
+}
+
+.creative_area .creative_heading_text h2 {
+	font-size:31px
+}
+
+.creative_area .creative_heading_text p {
+	padding:5px 63px;
+	text-align:center
+}
+
+.col-sm-3 {
+	width:50%
+}
+
+.creative_area .creative_icon .single_crietive .about_img_icon {
+	padding-top:30px
+}
+
+.service_area .single_service_item_left .left_service_icon {
+	text-align:center;
+	float:left;
+	width:100%
+}
+
+.service_area .single_service_item_left .left_service_content {
+	float:left;
+	width:100%;
+	text-align:center
+}
+
+.left_service_content h4,.right_service_content h4 {
+	font-size:16px
+}
+
+.left_service_content p,.right_service_content p {
+	font-size:12px
+}
+
+.left_service_icon .icon_style,.right_service_icon .icon_style {
+	padding:19px;
+	margin-top:3px
+}
+
+.service_area .single_service_item_right .right_service_icon {
+	float:left;
+	text-align:center;
+	width:100%
+}
+
+.service_area .single_service_item_right .right_service_content {
+	text-align:center;
+	float:left;
+	width:100%
+}
+
+.team_area .single_team .single_team_text {
+	margin-bottom:20px
+}
+
+.footer_area .contact_title p {
+	margin:28px 25px 0
+}
+
+.footer_menu a {
+	font-size:16px;
+	padding:10px 13px
+}
+
+.footer_copyright p,.footer_copyright a {
+	font-size:17px
+}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.header_area .header_logo_title {
+	font-size:31px
+}
+
+.header_area .slider_list .text_slider h1 {
+	font-size:20px;
+	margin-bottom:8px
+}
+
+.header_area .slider_list .text_slider p {
+	font-size:15px;
+	line-height:1.2;
+	padding:0 13px
+}
+
+.header_area .slider_list .text_slider .work-button {
+	margin-bottom:10px
+}
+
+.navbar-default .navbar-nav li a {
+	background:#452F2D;
+	border-bottom:1px solid #987878
+}
+
+.sitename {
+	font-size:22px;
+	color:#189E48
+}
+
+.creative_area .creative_heading_text h1 {
+	font-size:23px;
+	padding-bottom:15px
+}
+
+.creative_area .creative_heading_text h2 {
+	font-size:15px
+}
+
+.creative_area .creative_heading_text p {
+	padding:12px 6px;
+	text-align:left
+}
+
+.service_area .single_service_item_left .left_service_content {
+	text-align:left;
+	float:right
+}
+
+.service_area .single_service_item_left .left_service_icon {
+	float:left
+}
+
+.left_service_content h4,.right_service_content h4 {
+	font-size:15px
+}
+
+.left_service_content p,.right_service_content p {
+	font-size:11px
+}
+
+.left_service_icon .icon_style,.right_service_icon .icon_style {
+	padding:22px
+}
+
+.service_item_image {
+	clear:both
+}
+
+.team_area .single_team .single_team_img img {
+	width:100%
+}
+
+.portfolio_area .our_project ul li {
+	padding:0 6px;
+	font-size:.7em
+}
+
+.portfolio_area .col-sm-3 {
+	width:100%
+}
+
+.footer_area .contact_title h1 {
+	font-size:2.3em
+}
+
+.footer_area .contact_title p {
+	margin:0 15px
+}
+
+.footer_menu {
+	margin-top:14px;
+	margin-bottom:12px
+}
+
+.address_area {
+	text-align:center;
+	margin-left:30px;
+	float:left
+}
+
+.hotline_area {
+	text-align:center;
+	margin-left:30px
+}
+
+.contact_area::after {
+	display:none
+}
+
+.social_icons a {
+	margin:0 2px
+}
+
+.footer_menu a {
+	font-size:8px;
+	padding:10px 2px
+}
+
+.footer_copyright p,.footer_copyright a {
+	font-size:9px
+}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.creative_area .creative_heading_text p {
+	text-align:center
+}
+
+.sitename {
+	font-size:22px
+}
+
+.social_icons a {
+	margin:0 10px
+}
+
+.footer_menu a {
+	font-size:11px;
+	padding:10px 4px
+}
+
+.address_area {
+	margin-left:100px
+}
+
+.hotline_area {
+	margin-left:100px
+}
+
+.footer_copyright p,.footer_copyright a {
+	font-size:13px
+}
+}
